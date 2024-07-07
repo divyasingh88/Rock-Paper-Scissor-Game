@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    height: 100px;
+    width:100%;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.choices{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rock{
+    height: 150px;
+    width: 150px;
+    background-image: url(rock1.1.webp);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 2rem;
+    border: 2px solid black;
+    object-fit: cover;
+}
+.Paper{
+    height: 150px;
+    width: 150px;
+    background-image: url(paper1.1.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 2rem;
+    border: 2px solid black;
+}
+.Scissor{
+    height: 150px;
+    width: 150px;
+    background-image: url(sci2.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.choice:hover{
+    opacity: 3px;
+    cursor: pointer;
+    border:4px solid purple;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+#score,#compscore{
+    font-size: 4rem;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.msg{
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+
+}
